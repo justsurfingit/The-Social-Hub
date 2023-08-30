@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* some global classes and variable are defined here to make our work easier */
+.hover-class:hover {
+  cursor: pointer;
+  /* transform: scale(1.2); */
+}
+:root {
+  --main-color: rgb(11, 89, 135);
+  --dim-color: rgb(124, 123, 123);
+  --border-color: #ddd;
+  --accent-color: #458eff;
+}

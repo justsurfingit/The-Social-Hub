@@ -1,0 +1,91 @@
+.con {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  width: 40vw;
+  padding: 2rem;
+  font-family: "Alkatra", "Chivo Mono", "Inter", "Montserrat", "Palanquin Dark",
+    "Roboto Slab", cursive, monospace, sans-serif, serif;
+  font-weight: 200;
+}
+
+.con .form {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  height: 80%;
+}
+
+.con .form h2 {
+  text-align: center;
+  font-size: 2.7rem;
+  font-weight: bold;
+}
+
+.con .form p {
+  font-size: 15px;
+}
+
+.con .form input {
+  width: 300px;
+  height: 2rem;
+}
+
+.con .form .sections p {
+  margin-bottom: 1rem;
+}
+
+.con .form .sections input {
+  padding: 0.5rem;
+}
+
+.con .btn {
+  background-color: #43eee3;
+  width: 230px;
+  height: 52px;
+  font-size: 20px;
+  color: #fafeff;
+  border: none;
+  margin: 0;
+  padding: 0;
+  border-radius: 7px;
+  outline: none;
+}
+
+@media only screen and (max-width: 920px) {
+  .con .form input {
+    width: 250px;
+    height: 2rem;
+  }
+  .con .btn {
+    height: 43px;
+    width: 200px;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 857px) {
+  .con {
+    width: 45vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .con {
+    position: relative; /* Needed for positioning the pseudo-element */
+    width: 100vw;
+    background-image: url("./mobile-pot.jpeg");
+    background-size: cover;
+    color: azure;
+  }
+  .con .form h2 {
+    font-size: 2rem;
+    font-weight: 200;
+  }
+  .form {
+    // border: 2px solid black;
+    border-radius: 0.4rem;
+    padding: 1.7rem;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+}

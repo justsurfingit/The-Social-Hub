@@ -1,0 +1,43 @@
+.feed {
+  max-width: 1250px;
+  margin-inline: auto;
+  display: flex;
+  gap: 3rem;
+  padding: 1rem;
+  margin-top: 2rem;
+  .left-side {
+    flex: 6;
+  }
+  .right-side {
+    flex: 2.5;
+    margin-block: 2rem;
+    padding: 2rem;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    height: 650px;
+    // border: 2px solid green;
+    // margin-top: 1rem;
+    h3 {
+      color: var(--dim-color);
+    }
+    .people {
+      .user-section {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+      }
+      display: flex;
+      // text-align: ;
+      margin-block: 1rem;
+      align-items: center;
+      justify-content: space-between;
+      p {
+        color: var(--main-color);
+      }
+    }
+    .following {
+      //   border: 1px solid var(--border-color);
+      margin-bottom: 2rem;
+    }
+  }
+}

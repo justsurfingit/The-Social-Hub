@@ -1,0 +1,28 @@
+.main-holder {
+  display: flex;
+  width: 100vw;
+}
+
+.Banner {
+  width: 60vw;
+  background-image: url(./mobile.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 857px) {
+  .Banner {
+    width: 55vw;
+    background-image: url(./mobile.jpeg);
+    background-size: cover;
+    // margin-right: 1rem;
+  }
+  .main-holder {
+  }
+}
+@media only screen and (max-width: 600px) {
+  .Banner {
+    display: none;
+  }
+}

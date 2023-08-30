@@ -1,0 +1,78 @@
+.container {
+  min-width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to right, #4568dc, #b06ab3);
+  color: white;
+  @import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Chivo+Mono:wght@100&family=Inter:wght@100&family=Montserrat:ital,wght@0,100;0,200;1,100&family=Roboto+Slab&display=swap");
+  font-family: "Alkatra", cursive;
+  font-family: "Chivo Mono", monospace;
+  font-family: "Inter", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto Slab", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    font-size: 2.4rem;
+  }
+  .sub-head{
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    // justify-
+    gap: 1rem;
+    justify-content: center;
+  }
+  a{
+    color:white;
+  }
+}
+.main-form {
+  border: 2px solid whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem;
+  border-radius: 1rem 0.8rem;
+  width: 600px;
+  height: 500px;
+  form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    // align-items: center;
+    gap: 1rem;
+    button {
+      width: 50%;
+      padding: 1rem;
+      margin: auto;
+      box-shadow: 0px 0px 0px transparent;
+border: 0px solid transparent;
+text-shadow: 0px 0px 0px transparent;
+      border-radius: 0.5rem;
+      margin-top: 1rem;
+    //   background-color: rgba(69, 104, 220, 0.3);
+    }
+    // align-items: center;
+  }
+  form input {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    // background-color: rgb(234, 229, 222);
+
+    outline: none;
+  }
+
+  //   flex-direction: column;
+}
+input,
+label {
+  font-size: 1rem;
+  display: block;
+}
+label {
+  font-size: 1rem;
+}
